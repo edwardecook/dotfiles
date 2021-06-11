@@ -1,0 +1,44 @@
+---
+- hosts: all
+  tags: [macos, linux]
+  tasks:
+  - name: install oh-my-zsh
+    shell: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    args:
+      creates: ~/.oh-my-zsh
+
+  - name: get TPM
+    git:
+      repo: https://github.com/tmux-plugins/tpm
+      dest: ~/.tmux/plugins/tpm
+
+  - name: install python support for nvim
+    command: pip3 install --user --upgrade pynvim
+
+  - name: install Luan's Neovim distribution
+    git:
+      repo: https://github.com/luan/nvim
+      dest: ~/.config/nvim
+  
+  - name: install pure-prompt
+    npm:
+      name: pure-prompt
+      global: yes
+
+  - name: set up symlinks
+    file:
+      path: "{{item.target}}"
+      src: "{{item.src}}"
+      state: link
+      force: yes
+    with_items:
+    - {target: ~/.config/nvim/user/before.vim, src: "{{ansible_env.PWD}}/config/nvim/before.vim"}
+    - {target: ~/.config/nvim/user/plug.vim, src: "{{ansible_env.PWD}}/config/nvim/plug.vim"}
+    - {target: ~/.config/nvim/user/after.vim, src: "{{ansible_env.PWD}}/config/nvim/after.vim"}
+    - {target: ~/.gitconfig, src: "{{ansible_env.PWD}}/config/gitconfig"}
+    - {target: ~/.git-authors, src: "{{ansible_env.PWD}}/config/git-authors"}
+    - {target: ~/.oh-my-zsh/custom/git.zsh, src: "{{ansible_env.PWD}}/config/git.zsh"}
+    - {target: ~/.tmux.conf, src: "{{ansible_env.PWD}}/config/tmux.conf"}
+    - {target: ~/.zenv, src: "{{ansible_env.PWD}}/config/zenv"}
+    - {target: ~/.zprofile, src: "{{ansible_env.PWD}}/config/zprofile"}
+    - {target: ~/.zshrc, src: "{{ansible_env.PWD}}/config/zshrc"}
