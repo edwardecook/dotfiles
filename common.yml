@@ -35,10 +35,17 @@
     - {target: ~/.config/nvim/user/before.vim, src: "{{ansible_env.PWD}}/config/nvim/before.vim"}
     - {target: ~/.config/nvim/user/plug.vim, src: "{{ansible_env.PWD}}/config/nvim/plug.vim"}
     - {target: ~/.config/nvim/user/after.vim, src: "{{ansible_env.PWD}}/config/nvim/after.vim"}
-    - {target: ~/.gitconfig, src: "{{ansible_env.PWD}}/config/gitconfig"}
     - {target: ~/.git-authors, src: "{{ansible_env.PWD}}/config/git-authors"}
+    - {target: ~/.gitconfig-shared, src: "{{ansible_env.PWD}}/config/gitconfig-shared"}
     - {target: ~/.oh-my-zsh/custom/git.zsh, src: "{{ansible_env.PWD}}/config/git.zsh"}
     - {target: ~/.tmux.conf, src: "{{ansible_env.PWD}}/config/tmux.conf"}
-    - {target: ~/.zenv, src: "{{ansible_env.PWD}}/config/zenv"}
     - {target: ~/.zprofile, src: "{{ansible_env.PWD}}/config/zprofile"}
+    - {target: ~/.zshenv, src: "{{ansible_env.PWD}}/config/zshenv"}
     - {target: ~/.zshrc, src: "{{ansible_env.PWD}}/config/zshrc"}
+  - name: ~/.gitconfig
+    blockinfile:
+      path: ~/.gitconfig
+      create: yes
+      block: |
+        [include]
+          path = ~/.gitconfig-shared

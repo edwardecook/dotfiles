@@ -36,10 +36,6 @@
 [push]
   default = simple
 
-[user]
-  name = Ed Cook
-  email = ecook@vmware.com
-
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
 
