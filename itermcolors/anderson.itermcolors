@@ -1,0 +1,213 @@
+<? xml version = "1.0" encoding = "UTF-8"?>
+<! DOCTYPE plist PUBLIC "- // Apple // DTD PLIST 1.0 // EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version = "1.0">
+<Dict>
+	<key> Ansi 0 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.14751330018043518 </ real>
+		<key> Green Component </key>
+		<Real> 0.15373477339744568 </ real>
+		<key> Red Component </key>
+		<Real> 0.15975369513034821 </ real>
+	</ Dict>
+	<key> Ansi 1 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.2443440854549408 </ real>
+		<key> Green Component </key>
+		<Real> 0.31154981255531311 </ real>
+		<key> Red Component </key>
+		<Real> 0.74280720949172974 </ real>
+	</ Dict>
+	<key> Ansi 10 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.73705941438674927 </ real>
+		<key> Green Component </key>
+		<Real> 0.81776160001754761 </ real>
+		<key> Red Component </key>
+		<Real> 0.60463660955429077 </ real>
+	</ Dict>
+	<key> Ansi 11 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.54318088293075562 </ real>
+		<key> Green Component </key>
+		<Real> 0.75688821077346802 </ real>
+		<key> Red Component </key>
+		<Real> 0.76941406726837158 </ real>
+	</ Dict>
+	<key> Ansi 12 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.96000063419342041 </ real>
+		<key> Green Component </key>
+		<Real> 0.83156478404998779 </ real>
+		<key> Red Component </key>
+		<Real> 0.73049461841583252 </ real>
+	</ Dict>
+	<key> Ansi 13 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.74669855833053589 </ real>
+		<key> Green Component </key>
+		<Real> 0.77711665630340576 </ real>
+		<key> Red Component </key>
+		<Real> 0.90397918224334717 </ real>
+	</ Dict>
+	<key> Ansi 14 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.77390211820602417 </ real>
+		<key> Green Component </key>
+		<Real> 0.75659763813018799 </ real>
+		<key> Red Component </key>
+		<Real> 0.65685248374938965 </ real>
+	</ Dict>
+	<key> Ansi 15 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.72961044310000001 </ real>
+		<key> Green Component </key>
+		<Real> 0.74467098710000001 </ real>
+		<key> Red Component </key>
+		<Real> 0.7734345198 </ real>
+	</ Dict>
+	<key> Ansi 2 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.57238638401031494 </ real>
+		<key> Green Component </key>
+		<Real> 0.69911843538284302 </ real>
+		<key> Red Component </key>
+		<Real> 0.48209449648857117 </ real>
+	</ Dict>
+	<key> Ansi 3 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.21868054568767548 </ real>
+		<key> Green Component </key>
+		<Real> 0.68092769384384155 </ real>
+		<key> Red Component </key>
+		<Real> 0.84126818180084229 </ real>
+	</ Dict>
+	<key> Ansi 4 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.59360653162002563 </ real>
+		<key> Green Component </key>
+		<Real> 0.5433814525604248 </ real>
+		<key> Red Component </key>
+		<Real> 0.38391241431236267 </ real>
+	</ Dict>
+	<key> Ansi 5 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.59009367227554321 </ real>
+		<key> Green Component </key>
+		<Real> 0.6315230131149292 </ real>
+		<key> Red Component </key>
+		<Real> 0.784598708152771 </ real>
+	</ Dict>
+	<key> Ansi 6 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.64213883876800537 </ real>
+		<key> Green Component </key>
+		<Real> 0.63509345054626465 </ real>
+		<key> Red Component </key>
+		<Real> 0.53243416547775269 </ real>
+	</ Dict>
+	<key> Ansi 7 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.40288904309272766 </ real>
+		<key> Green Component </key>
+		<Real> 0.41459912061691284 </ real>
+		<key> Red Component </key>
+		<Real> 0.43816742300987244 </ real>
+	</ Dict>
+	<key> Ansi 8 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.40288904309272766 </ real>
+		<key> Green Component </key>
+		<Real> 0.41459912061691284 </ real>
+		<key> Red Component </key>
+		<Real> 0.43816742300987244 </ real>
+	</ Dict>
+	<key> Ansi 9 Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.68752223253250122 </ real>
+		<key> Green Component </key>
+		<Real> 0.64297538995742798 </ real>
+		<key> Red Component </key>
+		<Real> 0.93931704759597778 </ real>
+	</ Dict>
+	<key> Background Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.14751330018043518 </ real>
+		<key> Green Component </key>
+		<Real> 0.15373477339744568 </ real>
+		<key> Red Component </key>
+		<Real> 0.15975369513034821 </ real>
+	</ Dict>
+	<key> Bold Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.89411765336990356 </ real>
+		<key> Green Component </key>
+		<Real> 0.89411765336990356 </ real>
+		<key> Red Component </key>
+		<Real> 0.89411765336990356 </ real>
+	</ Dict>
+	<key> Cursor Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.81568628549575806 </ real>
+		<key> Green Component </key>
+		<Real> 0.81568628549575806 </ real>
+		<key> Red Component </key>
+		<Real> 0.81568628549575806 </ real>
+	</ Dict>
+	<key> Cursor Text Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.22745098173618317 </ real>
+		<key> Green Component </key>
+		<Real> 0.22745098173618317 </ real>
+		<key> Red Component </key>
+		<Real> 0.22745098173618317 </ real>
+	</ Dict>
+	<key> Foreground Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.72961044311523438 </ real>
+		<key> Green Component </key>
+		<Real> 0.74467098712921143 </ real>
+		<key> Red Component </key>
+		<Real> 0.77343451976776123 </ real>
+	</ Dict>
+	<key> Selected Text Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.81568628549575806 </ real>
+		<key> Green Component </key>
+		<Real> 0.81568628549575806 </ real>
+		<key> Red Component </key>
+		<Real> 0.81568628549575806 </ real>
+	</ Dict>
+	<key> Selection Color </key>
+	<Dict>
+		<key> Blue Component </key>
+		<Real> 0.59360653162002563 </ real>
+		<key> Green Component </key>
+		<Real> 0.5433814525604248 </ real>
+		<key> Red Component </key>
+		<Real> 0.38391241431236267 </ real>
+	</ Dict>
+</ Dict>
+</ Plist>

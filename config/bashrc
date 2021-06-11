@@ -1,0 +1,30 @@
+# aliases
+
+alias k='kubectl'
+alias kindmeup='kubectl config use-context kind-kind'
+alias ll='ls -lahG'
+alias vim='nvim'
+alias allowthat='sudo xattr -r -d com.apple.quarantine'
+
+# path
+export PATH="$PATH:$HOME/go/bin:/usr/local/kubebuilder/bin:$HOME/.cargo/bin:${HOME}/.krew/bin"
+
+# bash-completion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+# direnv
+eval "$(direnv hook bash)"
+
+# rbenv
+eval "$(rbenv init -)"
+
+# gnu-sed
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# lastpass CLI timeout
+export LPASS_AGENT_TIMEOUT=43200
+
+# private
+if [ -f ~/.bash_private ]; then
+   source ~/.bash_private
+fi
