@@ -103,7 +103,9 @@ eval "$(direnv hook zsh)"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+alias vim='nvim'
+
 if [[ "$(uname) == Linux" ]]; then
     fpath+=/home/linuxbrew/.linuxbrew/share/zsh/site-functions
 fi
