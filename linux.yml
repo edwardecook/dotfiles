@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  tags: [macos]
+  tags: [linux]
   tasks:
   - name: update apt
     become: yes
