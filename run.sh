@@ -23,22 +23,18 @@ log() {
   echo
 }
 
-install_ansible() {
-  if [[ "$platform" == "linux" ]]; then
-    sudo apt install ansible -y
-  elif [[ "$platform" == "macos" ]]; then
-    log "Installing/upgrading Homebrew"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    brew install ansible
-  fi
-}
-
 log "Oh boy, here I go installin' again!"
 determine_platform
 
+if ! which brew > /dev/null 2>&1 ; then
+  echo "brew not found on \$PATH, installing"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
+
 if ! which ansible-playbook > /dev/null 2>&1 ; then
   echo "ansible-playbook not found on \$PATH, installing"
-  install_ansible
+  brew install ansible
 fi
 
 (

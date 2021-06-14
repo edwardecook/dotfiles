@@ -19,12 +19,12 @@
     git:
       repo: https://github.com/luan/nvim
       dest: ~/.config/nvim
-  
-  - name: install pure-prompt
-    npm:
-      name: pure-prompt
-      global: yes
 
+  - name: create nvim directory
+    file:
+      path: ~/.config/nvim/user
+      state: directory
+      mode: 0755
   - name: set up symlinks
     file:
       path: "{{item.target}}"

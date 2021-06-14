@@ -16,3 +16,4 @@ alias gup="git pull --rebase"
 alias gpr="git pull --rebase"
 alias solo='git solo --global'
 alias gti='git'
+unalias gpu
