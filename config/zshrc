@@ -114,8 +114,8 @@ prompt pure
 source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 if [[ "$(uname)" == "Darwin" ]]; then
-    source "$(brew --prefix)Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-    source "$(brew --prefix)Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+    source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+    source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
