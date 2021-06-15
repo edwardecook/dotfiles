@@ -40,6 +40,7 @@
       install_options: "{{item.install_options}}"
       state: latest
     with_items:
+    - {name: bat, install_options: ''}
     - {name: ctags, install_options: ''}
     - {name: direnv, install_options: ''}
     - {name: fd, install_options: ''}

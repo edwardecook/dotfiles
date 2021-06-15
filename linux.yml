@@ -54,6 +54,7 @@
       install_options: "{{item.install_options}}"
       state: latest
     with_items:
+    - {name: bat, install_options: ''}
     - {name: git-duet, install_options: ''}
     - {name: go, install_options: ''}
     - {name: helm, install_options: ''}
